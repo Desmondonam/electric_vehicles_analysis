@@ -52,9 +52,10 @@ def load_data():
     """Load and cache the electric vehicle dataset"""
     # Replace with your actual data loading method
     # For demo purposes, creating sample data structure
+    url = 'https://raw.githubusercontent.com/Desmondonam/electric_vehicles_analysis/refs/heads/main/Electric_Vehicle_Population_Data.csv'
     path = r'C:\Users\Admin\Desktop\Desney\Projects\Electric_vehicles_analysis\Electric_Vehicle_Population_Data.csv'
 
-    df = pd.read_csv(path)
+    df = pd.read_csv(url)
     return df
     
     # Remove this section and uncomment above when you have your actual data
